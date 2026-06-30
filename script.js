@@ -8,7 +8,7 @@ function createTable() {
 		let row =table.insertRow(i);
 		for(let j=0;j<cols;j++){
 			let cell=row.insertCell(j)
-			cell.innerHTML = `Row ${i} Col ${j}`;
+			cell.innerHTML = `Row-${i} Column-${j}`;
 		}
 		
 	}
